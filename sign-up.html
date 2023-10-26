@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">About me</a>
+    </nav>
+    <img
+      src="./images/ALT SCHOOL SOFTWARE Engineering 20231026_142352.jpg"
+      alt="altschool image"
+      width="130px"
+      height="120px"
+    />
+    <h2>Application form</h2>
+    <p>Fill in your details</p>
+    <form action="https://www.altschoolafrica.com" method="">
+      <table>
+        <tr>
+          <td>
+            <label for="fname">First Name</label><br />
+            <input
+              type="text"
+              id="fname"
+              placeholder="Enter first name"
+              name="fname"
+              required
+            />
+          </td>
+
+          <td>
+            <label for="lname">Last Name</label><br />
+            <input
+              type="text"
+              id="lname"
+              placeholder="Enter last name"
+              name="lname"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="gender">Gender</label><br />
+            <select id="gender" placeholder="Select gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </td>
+
+          <td>
+            <label for="fname">Date of Birth</label><br />
+            <input type="date" id="DD" placeholder="dd/mm/yy" name="DD" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter email adress"
+              name="email"
+              required
+            />
+          </td>
+
+          <td>
+            <label for="e-level">Education Level</label><br />
+            <input type="text" id="e-level" name="e-level" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="country">Country of Residence</label><br />
+            <input
+              type="text"
+              id="country"
+              placeholder="Enter your country of residedence"
+              name="country"
+              required
+            />
+          </td>
+          <td>
+            <label for="state">State/City</label><br />
+            <input
+              type="text"
+              id="state"
+              placeholder="Enter state of residence"
+              name="state"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="employment">Employment Status</label><br />
+            <input
+              type="text"
+              id="employment"
+              placeholder="Enter employment status"
+              name="employment"
+              required
+            />
+          </td>
+          <td>
+            <label for="phone-n">Phone Number</label><br />
+            <input
+              type="text"
+              id="phone-n"
+              placeholder="Enter phone number"
+              name="phone-n"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="school">Choose School</label><br />
+            <select name="school" id="school">
+              <option value="engineering">School of Engineering</option>
+              <option value="business">School of Business</option>
+            </select>
+          </td>
+          <td>
+            <label for="course">Choose course of study</label><br />
+            <select name="course" id="course">
+              <option value="frontend">Frontend engineering</option>
+              <option value="backend">Backend Engineering</option>
+              <option value="cloud">Cloud Engineering</option>
+              <option value=""></option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="about-us">How do you here about us?</label><br />
+            <select name="about-us" id="about-us">
+              <option value="social">Social Media</option>
+              <option value="referral">Referral</option>
+            </select>
+          </td>
+          <td>
+            <label for="discount">Discount Code</label><br />
+            <input
+              type="text"
+              id="discount"
+              placeholder="discount code"
+              name="discount"
+            />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="submit" />
+    </form>
+
+    <footer>
+      <p>
+        By clicking continue, I agree to
+        <a href="#">Terms amd Conditions</a> and acknowledge that i have read
+        the <a href="#">Privacy Policy.</a>
+      </p>
+    </footer>
+  </body>
+</html>
